@@ -45,7 +45,7 @@ export default function AboutPage() {
 
       </div>
       <div className="aboutme-img-div">
-          <img src={require('../assets/for-aboutpage.PNG')} alt="AboutpageImg" height={704} width={704} />
+          <img src={require('../assets/for-aboutpage.jpg')} alt="AboutpageImg" height={450} width={350} />
         </div>
         </div>
     </>
