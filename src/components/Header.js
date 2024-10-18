@@ -1,44 +1,36 @@
 import * as React from 'react';
-import '../styles/home.css'
+import '../styles/header.css'
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
-// import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 import { Icon } from '@iconify/react';
-import Link from '@mui/material/Link';
+import { Link, useNavigate } from 'react-router-dom';
 
-function Header() {
+export default function Header() {
+  const navigate = useNavigate();
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static" sx={{ bgcolor: "#FEC5BB" }}>
         <Toolbar>
-          <IconButton
-            size="large"
-            edge="start"
-            color="inherit"
-            aria-label="menu"
-            sx={{ mr: 3 }}
-          >
-            <Icon icon="pixelarticons:home" style={{ color: "black", width: 51, height: 51 }} />
-          </IconButton>
-          <Link 
-            underline="always"
-            component="button"
-            onClick={() => {console.log("About is clicked")}}
+          <div style={{ flexGrow: 1 }}>
+            <IconButton
+              size="large"
+              edge="start"
+              color="inherit"
+              aria-label="menu"
+              sx={{ mr: 3 }}
             >
-            {'About'}
-          </Link>
+              <Icon icon="pixelarticons:home" style={{ color: "black", width: 51, height: 51 }} onClick={() => {navigate("/")}}/>
+            </IconButton>
+          </div>
 
-          <Link href="/porfolio" underline="always">
-            {'Portfolio'}
-          </Link>
+          <Link to="/about" className='dynapuff nav-title' style={{marginRight: "60px"}}>About</Link>
+          <Link to="/portfolio" className='dynapuff nav-title'>Portfolio</Link>
 
-
+          
         </Toolbar>
       </AppBar>
     </Box>
   );
 }
-
-export default Header;

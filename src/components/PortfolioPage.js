@@ -1,9 +1,7 @@
-function PortfolioPage() {
+export default function PortfolioPage() {
   return (
     <>
-    <div style={{paddingTop: "200px"}}>Portfolio page</div>
+    <div>Portfolio page</div>
     </>
   );
 }
-
-export default PortfolioPage;
