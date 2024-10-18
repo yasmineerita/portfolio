@@ -1,6 +1,7 @@
 import { Typography, Button } from "@mui/material";
 import { Icon } from '@iconify/react';
-import '../styles/about.css'
+import '../styles/about.css';
+import '../styles/font.css';
 
 
 export default function AboutPage() {
@@ -27,7 +28,7 @@ export default function AboutPage() {
 
         <Typography className="dynapuff size-20 aboutme-detail">
           <Icon icon="tabler:code" className="icon-style" />
-          React, Angular, Swift, Jave, C/C++, Typescript, Javascript, Python, mySQL, NodeJS
+          React, Angular, Swift, Java, C/C++, Typescript, Javascript, Python, mySQL, NodeJS
         </Typography>
 
         <Typography className="dynapuff size-20 aboutme-detail">
