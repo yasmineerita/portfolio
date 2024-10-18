@@ -24,11 +24,8 @@ export default function Header() {
               <Icon icon="pixelarticons:home" style={{ color: "black", width: 51, height: 51 }} onClick={() => {navigate("/")}}/>
             </IconButton>
           </div>
-
           <Link to="/about" className='dynapuff nav-title' style={{marginRight: "60px"}}>About</Link>
           <Link to="/portfolio" className='dynapuff nav-title'>Portfolio</Link>
-
-          
         </Toolbar>
       </AppBar>
     </Box>
