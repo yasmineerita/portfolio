@@ -1,5 +1,6 @@
 import * as React from 'react';
 import '../styles/header.css'
+import '../styles/font.css'
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';

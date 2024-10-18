@@ -1,0 +1,26 @@
+.dynapuff {
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.delius-regular {
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.size-20 {
+  font-size: 20px;
+}
+
+.size-40 {
+  font-size: 40px;
+}
+
+.size-15 {
+  font-size: 15px;
+}
