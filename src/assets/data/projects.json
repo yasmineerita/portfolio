@@ -1,0 +1,52 @@
+{
+    "projects": [
+      {
+        "name": "Chatbot AI",
+        "details": [
+          "Web application for quickly retrieve related documents",
+          "Implemented a user-friendly chat interface.",
+          "Utilized RESTful APIs for backend communication."
+        ],
+        "language": "Python, React",
+        "framework": "Weaviate, LlamaIndex, MySQL",
+        "status": "In Progress",
+        "link": "https://github.com/"
+      },
+      {
+        "name": "Object Recognition",
+        "details": [
+          "Developed an object recognition using trained YOLOv5 for real-time detection.",
+          "Implemented image segmentation techniques to isolate objects.",
+          "Developed tools for preprocessing image dataset."
+        ],
+        "language": "Python",
+        "framework": "YOLOv5, CoreML, OpenCV",
+        "status": "In Progress",
+        "link": "https://github.com/"
+      },
+      {
+        "name": "Visualization Dashboard",
+        "details": [
+          "Created an interactive dashboard for data visualization.",
+          "Implemented real-time updates with Chart.js to display dynamic graphs.",
+          "Developed a Java backend to handle data processing and API communication"
+        ],
+        "language": "Angular, Java",
+        "framework": "Chart.js, D3.js",
+        "status": "In Progress",
+        "link": "https://github.com/"
+      },
+      {
+        "name": "ChoreCenter",
+        "details": [
+          "Android application for interaction between parents and their childrens",
+          "UI/UX design for this project",
+          "Feature delete/complete chore"
+        ],
+        "language": "Java",
+        "framework": "Android Studio",
+        "status": "Completed",
+        "link": "https://github.com/"
+      }
+    ]
+  }

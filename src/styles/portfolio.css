@@ -1,0 +1,24 @@
+.portfolio-title {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.portfolio-img {
+    transform: translate(25px, -40px);
+}
+
+.portfolio-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+.card-style {
+    border-radius: 20;
+    border-color: black;
+}

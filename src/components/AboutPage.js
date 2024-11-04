@@ -1,7 +1,6 @@
 import { Typography, Button } from "@mui/material";
 import { Icon } from '@iconify/react';
 import '../styles/about.css';
-import '../styles/font.css';
 
 
 export default function AboutPage() {
@@ -11,35 +10,35 @@ export default function AboutPage() {
 
    
       <div className="aboutme-div">
-        <Typography className="dynapuff size-40 aboutme-title">
+        <Typography style={{fontFamily: 'DynaPuff', fontSize: 40, marginBottom: '40px'}}>
           about me
           <Icon icon="noto:cat-face" style={{ width: 50, height: 48, transform: 'translate(10px, 10px)' }} />
         </Typography>
 
-        <Typography className="dynapuff size-20 aboutme-detail">
+        <Typography style={{fontFamily: 'DynaPuff', fontSize: 20, marginBottom: '15px'}}>
           <Icon icon="lsicon:location-filled" className="icon-style" />
           Based in Seattle, WA
         </Typography>
 
-        <Typography className="dynapuff size-20 aboutme-detail">
+        <Typography style={{fontFamily: 'DynaPuff', fontSize: 20, marginBottom: '15px'}}>
           <Icon icon="tdesign:education" className="icon-style" />
           Graduated with a degree in Computer Science from the University of Washington (Seattle)
         </Typography>
 
-        <Typography className="dynapuff size-20 aboutme-detail">
+        <Typography style={{fontFamily: 'DynaPuff', fontSize: 20, marginBottom: '15px'}}>
           <Icon icon="tabler:code" className="icon-style" />
-          React, Angular, Swift, Java, C/C++, Typescript, Javascript, Python, mySQL, NodeJS
+          React, Angular, Java, Typescript, Javascript, Swift, C/C++, Python, mySQL, NodeJS
         </Typography>
 
-        <Typography className="dynapuff size-20 aboutme-detail">
+        <Typography style={{fontFamily: 'DynaPuff', fontSize: 20, marginBottom: '15px'}}>
           <Icon icon="solar:chat-round-like-linear" className="icon-style" />
           Traveling, Baking, Yoga, Photography
         </Typography>
 
-        <Typography className="dynapuff size-20 aboutme-detail">
+        <Typography style={{fontFamily: 'DynaPuff', fontSize: 20, marginBottom: '15px'}}>
           <Icon icon="icomoon-free:point-right" className="icon-style" />
           Current Project:
-          <Button className='btn delius-regular' style={{marginLeft: "20px"}}>Chatbot AI</Button>
+          <Button style={{fontFamily: 'Delius', fontSize: 20, marginLeft: "20px"}}>Chatbot AI</Button>
         </Typography>
 
         
