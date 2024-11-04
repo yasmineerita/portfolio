@@ -37,7 +37,7 @@ export default function PortfolioPage() {
                       </div>
                     );
                   })}
-                  <div style={{ display: 'flex', justifyContent: 'space-between', flexDirection: 'row' }}>
+                  <div style={{ display: 'flex', flexDirection: 'row' }}>
                     <div>
                       <Icon icon="tabler:point-filled" style={{ width: 30, height: 50, transform: 'translate(-5px, -10px)' }} />
                     </div>
